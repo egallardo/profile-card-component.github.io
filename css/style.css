@@ -1,0 +1,74 @@
+
+body{
+  background: hsl(185, 75%, 39%);
+  font-family: font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  width: 1440px;
+  height: 1080px;
+  line-height: 2;
+  position: absolute;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align:
+  center;
+  padding: 20px 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card-container{
+  text-align: center;
+  border-radius: 10%;
+  bottom: 1700px;
+  position: relative;
+  margin: auto;
+  background: white;
+  width: 350px;
+  height: 450px;
+}
+
+.card-pattern-img{
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+.photo-img{
+  position: relative;
+  top: -55px;
+  border-radius: 100%;
+  clear: left;
+}
+
+.info{
+  position: relative;
+  top: -30px;
+  margin: 0;
+}
+.details{
+  color: grey;
+}
+.details-bottom{
+  color: grey;
+  font-size: 0.75rem;
+}
+
+.bottom-elements{
+  line-height: normal;
+  display: inline-block;
+  padding: 15px;
+}
+.top-img{
+  position: relative;
+  bottom: 500px;
+  right: 200px;
+}
+.bottom-img{
+  position: relative;
+  left: 600px;
+  bottom: 500px;
+}
