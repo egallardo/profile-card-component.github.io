@@ -1,16 +1,13 @@
-.bottom-img{
 
-}
-.top-img{
-
-}
 body{
   background: hsl(185, 75%, 39%);
-  height: 100%;
-  width: 100%;
-  background-image: url(../images/bg-pattern-bottom.svg);
+  background-image: url(../images/bg-pattern-top.svg),
+  url(../images/bg-pattern-bottom.svg);
   background-size:  50%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat,
+  no-repeat;
+  background-position: -150px -200px  ,
+  1000px 400px;
   font-family:'Kumbh Sans', sans-serif;
   font-size: 18px;
   margin: auto;
